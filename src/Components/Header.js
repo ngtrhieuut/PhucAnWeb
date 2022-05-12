@@ -1,6 +1,5 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faPhone, faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
-import {faFacebook, faYoutube, faGoogle} from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
 
@@ -8,7 +7,7 @@ function Header() {
         <div className='container-flud'>
             <div className='row d-flex justify-content-center'> 
                 <div className='col-sm-12 col-lg-2 col-md-6' id='logoHeader'>
-                    <img src='./assets/images/logo1.jpg' />
+                    <img src='./assets/images/logo1.jpg' alt='...'/>
                 </div>
                 <div className='col-sm-12 col-lg-6 col-md-6' id='CompanyName'>
                     <h1>
@@ -30,32 +29,32 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item tabInfo">
-                            <a className="active" aria-current="page" href="#">Trang chủ</a>
+                            <a className="active" aria-current="page" href="/">Trang chủ</a>
                         </li>
                         <li className="nav-item tabInfo">
-                            <a className="" href="#">Giới thiệu</a>
+                            <a className="" href="/">Giới thiệu</a>
                         </li>
                         <li className="nav-item dropdown tabInfo">
-                            <a className="dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="dropdown-toggle " href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Sản phẩm
                             </a>
                             <ul className="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Điện công nghiệp</a></li>
-                                <li><a className="dropdown-item" href="#">Linh kiện cơ khí</a></li>
-                                <li><a className="dropdown-item" href="#">Linh kiện khí nén</a></li>
+                                <li><a className="dropdown-item" href="/">Điện công nghiệp</a></li>
+                                <li><a className="dropdown-item" href="/">Linh kiện cơ khí</a></li>
+                                <li><a className="dropdown-item" href="/">Linh kiện khí nén</a></li>
                             </ul>
                         </li>
                         <li className="nav-item tabInfo">
-                            <a className="" href="#">Dịch vụ</a>
+                            <a className="" href="/">Dịch vụ</a>
                         </li>
                         <li className="nav-item tabInfo">
-                            <a className="" href="#">Tuyển Dụng</a>
+                            <a className="" href="/">Tuyển Dụng</a>
                         </li>
                         <li className="nav-item tabInfo">
-                            <a className="" href="#">Liên hệ</a>
+                            <a className="" href="/">Liên hệ</a>
                         </li>
                         <li className="nav-item tabInfo">
-                            <a className="" href="#">Tin tức</a>
+                            <a className="" href="/">Tin tức</a>
                         </li>
                     </ul>
                     <form className="d-flex mb-1 mt-1">
